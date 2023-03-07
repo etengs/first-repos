@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background: rgb(41, 40, 40);
+   
+}
+
+.section-1{
+    background: url(photos/logo.jpg);
+    width: 98.6vw;
+    color: white;
+    filter: brightness(85%);
+    padding-top: 15px;
+    padding-bottom: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.section-1 .image .nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    
+
+}
+.section-1 .image .nav img{
+    width: 150px;
+    
+}
+#sign{
+    text-align: center;
+    background: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.text-heading{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+
+}
+.text-heading .text{
+    width: 80%;
+}
+.text-heading .text2{
+    font-size: 4vw;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+.text-heading h1{
+    font-size: 4vw;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+   
+
+}
+.text-heading h4{
+    font-size: 2vw;
+    width: 60%;
+    margin: auto;
+}
+.text-heading .form{
+    width: 80%;
+    margin: auto;
+}
+.text-heading .form-email p{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.text-heading .input-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-heading .input-submit #email{
+    padding: 15px;
+    border: none;
+    width: 40vw;
+   
+}
+.text-heading .input-submit .submit{
+    padding: 15px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+/***** section 2 *****/
+/***** section 2 *****/
+
+
+.section-2 {
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+}
+.section-2 .sect-2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    width: 100%;
+}
+.section-2 .sect-2 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 70px;
+    
+}
+.section-2 .text h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.section-2 .text p{
+    font-size: 25px;
+    width: 100%;
+}
+.section-2 .tv-image{
+    width: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+   
+}
+.section-2 .tv-image img{
+
+    width: 400px;
+    
+    
+}
+
+/***** End section 2 *****/
+
+/***** Section 3 *****/
+/***** Section 3 *****/
+
+.section-3{
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+}
+.section-3 .sect-3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 50px;
+    width: 100%;
+}
+.section-3 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    width: 50%;
+}
+.section-3 .text h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.section-3 .text p{
+    font-size: 25px;
+    width: 100%;
+
+}
+.section-3 .mobile{
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.section-3 .mobile img{
+    width: 500px;
+}
+/***** End Section 3 *****/
+/***** End Section 3*****/
+
+/***** Section 4 *****/
+/***** Section 4*****/
+.section-4{
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-top: 10px;
+    width: 100%;  
+}
+.section-4 .sect-4{
+    padding: 80px;
+    width: 100%;
+}
+.section-4 .text h1{
+    font-size: 3.5vw;
+    margin-left: 10vw;
+    margin-bottom: 30px;
+
+}
+.section-4 .text p{
+    font-size: 2vw;
+    width: 50%;
+    margin-left: 10vw;
+
+}
+
+/***** End Section *****/
+/***** End Section 4 *****/
+
+/***** Section 5 *****/
+/***** Section 5 *****/
+.section-5{
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-top: 10px;
+    width: 100%;
+}
+.section-5 .kids{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 50px;
+    width: 100%;
+}
+.section-5 .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    width: 50%;
+}
+.section-5 .text h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+.section-5 .text p{
+    font-size: 2vw;
+
+}
+.section-5 .kidsimage{
+    width: 50%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+}
+.section-5 .kidsimage img{
+   width: 450px;
+}
+/***** End Section 5 *****/
+/***** End Section 5 *****/
+
+/***** section 6 *****/
+/***** Section 6 *****/
+.section-6{
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 60px;
+    width: 100%;
+}
+.section-6 .question-heading{
+   padding: 30px 0px 30px 0px;
+   display: flex;
+   justify-content: center;
+}
+.section-6 .question-heading h1{
+    font-size: 50px;
+}
+.section-6 .faq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.section-6 .collapsible{
+    width: 60%;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    background: #303030;
+    color: white;
+}
+.section-6 .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #303030;
+    max-width: 60%;
+    margin: 5px;
+    
+  }
+  
+  .section-6 .content p{
+    padding: 30px 30px 20px 30px;
+    font-size: 25px;
+  }
+
+
+.section-6 .form-email p{
+    margin: 60px 0 30px 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-6 .input-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-6 .input-submit #email{
+    padding: 15px;
+    border: none;
+    width: 40vw;
+   
+}
+.section-6 .input-submit .submit{
+    padding: 15px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+/***** End Section 6 *****/
+/***** End section 6 *****/
+
+/***** Footoer *****/
+/***** footer *****/
+footer{
+    background: rgb(0, 0, 0);
+    color: rgb(117, 117, 117);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer .question{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer .colum{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+.footer .colum .row p {
+    display: flex;
+    flex-wrap: wrap;
+   margin-bottom: 20px;
+    
+}
+
+
+/***** End footer *****/
+/***** End Footoer *****/
+
+@media screen and ( max-width: 768px) {
+    .section-1 .image .nav{
+        padding-top: 30px;
+    }
+    .section-1 .image .nav img{
+        width: 120px;
+    }
+    #sign{
+        padding: 4px;
+    }
+    .text-heading{
+        padding-top: 65px;
+    }
+    .text-heading .input-submit{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-heading  h1{
+        font-size: 45px;
+        width: 100%;
+        
+    }
+    .text-heading  h4{
+        font-size: 25px;
+        width: 100%; 
+    }
+    .text-heading .form-email p{
+        width: 90%;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .text-heading .input-submit #email{
+        padding: 15px;
+        border: none;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .text-heading .input-submit .submit{
+        border-radius: 5px;
+        padding: 10px;
+    }
+    /***** Section 2 *****/
+    .section-2 .sect-2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 0;
+
+    }
+    .section-2 .sect-2 .text{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        padding-top: 70px;
+        
+    }
+    .section-2 .text p{
+        font-size: 23px;
+        width: 100%;
+    }
+    .section-2 .tv-image{
+        width: 100%;
+    }
+    .section-2 .tv-image img{
+        margin-top: -100px;
+        width: 600px;
+        
+        
+    }
+    
+    /***** End Section 2 *****/
+    /***** Section 3*****/
+    .section-3 .sect-3{
+        flex-direction: column;
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    .section-3 .text{
+        padding: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    .section-3 .text p{
+        font-size: 20px;
+    }
+    .section-3 .mobile{
+        width: 100%;
+        padding: 0;
+    }
+    .section-3 .mobile img{
+        width: 600px;
+    }
+    /***** End Section 3*****/
+    /***** Section 4 *****/
+    .section-4 .sect-4{
+        padding: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    .section-4 .text h1{
+        font-size: 40px;
+        line-height: 2;
+        margin: 0;
+    
+    }
+    .section-4 .text p{
+       margin: 0;
+       font-size: 18px;
+        width: 100%;
+    }
+    /***** End Section 4 *****/
+    /***** Section 5*****/
+    .section-5 .kids{
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+    .section-5 .text{
+        padding: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    .section-5 .text p{
+       font-size: 20px;
+    
+    }
+    .section-5 .kidsimage{
+        width: 100%;
+        padding: 0;
+        
+    }
+    .section-5 .kidsimage img{
+       width: 600px;
+    }
+
+    /***** End Section 5*****/
+
+    .section-6 .question-heading h1{
+        font-size: 40px;
+    }
+
+    footer{
+        padding: 0;
+    }
+    .footer{
+        width: 80%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+       
+    }
+    .footer .question{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer .colum{
+        gap: 5%;
+    }
+    .footer .colum .row p {
+        font-size: 14px;
+       margin-bottom: 10px;
+        
+    }
+}
+@media screen and (max-width: 540px){
+    .section-1{
+        width: 100vw;
+        padding-bottom: 75px;
+    }
+    .section-1 .image .nav {
+        padding: 20px;
+    }
+    .section-1 .image .nav img{
+        width: 80px;
+    }
+    #sign{
+        font-size: 15px;
+    }
+    .text-heading{
+        width: 100%;
+    }
+    .text-heading .text{
+        width: 100%;
+    }
+    .text-heading .text{
+        width: 100%;
+    }
+    .text-heading h1{
+        width: 100%;
+        font-size: 23px;
+    }
+    .text-heading h4{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .text-heading .form{
+        width: 90%;
+        margin: auto;
+    }
+    .text-heading .form-email p{
+        width: 100%;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: -20px;
+    }
+    .text-heading .input-submit #email{
+        margin-bottom: 10px;
+        margin-top: -20px;
+    }
+    .section-2 .tv-image img{
+        margin-top: -30px;
+        width: 300px;
+    }
+    .section-3 .mobile img{
+        width: 300px;
+    }
+    .section-4 .text h1{
+        font-size: 25px;
+        line-height: 2;
+        margin: 0;
+    
+    }
+    .section-4 .text p{
+       font-size: 15px;
+    }
+    .section-5 .text h1{
+        font-size: 30px;
+    }
+    .section-5 .text p{
+        font-size: 16px;
+     
+     }
+     .section-5 .kidsimage img{
+        width: 300px;
+     }
+     .section-6 .question-heading h1{
+        font-size: 20px;
+    }
+    .section-6 .collapsible{
+        width: 100%;
+        display: flex;
+        padding: 5px;
+        justify-content: space-between;
+        background: #303030;
+        color: white;
+    }
+    .section-6 .content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        background-color: #303030;
+        max-width: 100%;
+        
+      }
+      .section-6 .content p{
+        padding: 10px 10px 10px 10px;
+        font-size: 20px;
+      }
+      .section-6 .form-email p{
+        text-align: center;
+        margin-top: px;
+    
+    }
+    .section-6 .input-submit{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-6 .input-submit #email{
+        padding: 15px;
+        border: none;
+        width: 40vw;
+       
+    }
+    .section-6 .input-submit .submit{
+        padding: 15px;
+        background: rgb(255, 0, 0);
+        color: rgb(255, 255, 255);
+        border: none;
+    }
+}
